@@ -68,6 +68,25 @@ button:focus-visible {
   border-radius: 4px;
 }
 
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-error {
+  margin-left: 4px;
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-sm {
+  padding: 0.25rem 0.5rem;
+  font-size: .875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

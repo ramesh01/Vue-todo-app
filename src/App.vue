@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import TodoInputField from './components/TodoInputField/TodoInputField.vue';
+import Todo from './components/Todo/Todo.vue';
 </script>
 
 <template>
-  <TodoInputField />
+  <Todo />
 </template>
 
 <style scoped>

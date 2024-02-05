@@ -1,7 +1,7 @@
 <script setup lang="ts">
     import { ref, watch, onMounted, onUpdated, onUnmounted, reactive } from 'vue';
-    import TodoInputField from "../TodoInputField/TodoInputField.vue"
-    import TodoList from "../TodoList/TodoList.vue"
+    import TodoInputField from "../../components/TodoInputField/TodoInputField.vue"
+    import TodoList from "../../components/TodoList/TodoList.vue"
 
     const todoInput = ref('');
     const todoListArr = ref({todosArr: []});
